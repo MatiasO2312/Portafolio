@@ -19,7 +19,6 @@ a technology firm based in Tierra del Fuego building cybersecurity, AI, and data
 **Languages & Analysis**  
 ![Python](https://img.shields.io/badge/Python-1B3A6B?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-1B3A6B?style=flat&logo=postgresql&logoColor=white)
-![R](https://img.shields.io/badge/R-1B3A6B?style=flat&logo=r&logoColor=white)
 
 **ML & Data Science**  
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-7EAECE?style=flat&logo=scikit-learn&logoColor=white)
@@ -64,7 +63,7 @@ generate actionable regional insights.
 
 ## 🎓 Education
 
-**Tecnicatura en Ciencia de Datos e IA** · Politécnico Malvinas Argentinas · 2024–present (65%)  
+**Tecnicatura en Ciencia de Datos e IA** · Politécnico Malvinas Argentinas · 2024–present (75%)  
 **Licenciatura en Sociología** · UNTDF · 2021–present (90% — thesis in progress)
 
 ---
@@ -76,4 +75,3 @@ generate actionable regional insights.
 
 ---
 
-*"Los datos cuentan lo que pasó. La sociología explica por qué."*
