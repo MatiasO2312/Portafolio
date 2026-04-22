@@ -1,97 +1,76 @@
-# 🔍 People Analytics: Predicción de Rotación Voluntaria
+# Matías Oroz
 
-> **Stack:** Python · Pandas · Scikit-learn · XGBoost · Matplotlib  
-> **Dataset:** IBM HR Analytics Employee Attrition & Performance (1,470 empleados)  
-> **Mejor modelo:** Logistic Regression — AUC 0.82 · F1 0.42 (umbral 0.35)
-
----
-
-## Objetivo
-
-Predecir qué empleados tienen mayor probabilidad de renunciar voluntariamente, integrando modelado predictivo con un marco sociológico para traducir los resultados en intervenciones de RRHH concretas y diferenciadas.
+**Data Analyst | Computational Sociology · AI · People Analytics**  
+📍 Río Grande, Tierra del Fuego, Argentina · 🌐 EN / ES
 
 ---
 
-## Hallazgos Clave
+I work at the intersection of social science and data engineering.  
+My background in Sociology gives me something most data profiles don't have:  
+**the ability to ask the right questions before touching the data.**
 
-| Insight | Dato | Implicancia |
-|---|---|---|
-| Horas extra = principal predictor | 3.4× más riesgo | Gestión de carga de trabajo |
-| Ingreso mediano: +$5,500 para quienes se quedan | Efecto protector claro | Política salarial = retención |
-| Los primeros 3 años son críticos | Rotación cae tras año 3 | Onboarding estratégico |
-| Perfil "Quemado" y "Desenganchado" | 40%+ de rotación | Intervenciones diferenciadas |
+Currently working as **Data Analyst & AI Specialist at [Tech del Fuego](https://www.techdelfuego.com)** —  
+a technology firm based in Tierra del Fuego building cybersecurity, AI, and data solutions for SMEs.
 
 ---
 
-## Perfiles Sociológicos Identificados
+## 🛠 Stack
 
-| Perfil | N | Rotación | Marco teórico |
-|---|---|---|---|
-| 🔥 Quemado | 39 | 41% | Modelo Demanda-Control (Karasek) |
-| 😶 Desenganchado | 40 | 40% | Teoría del Engagement (Kahn) |
-| ⏳ Estancado | 307 | 12% | Movilidad interna (Sicherman) |
-| ✅ Estable | 1,084 | 16% | Línea base |
+**Languages & Analysis**  
+![Python](https://img.shields.io/badge/Python-1B3A6B?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-1B3A6B?style=flat&logo=postgresql&logoColor=white)
 
----
+**ML & Data Science**  
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-7EAECE?style=flat&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-7EAECE?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-7EAECE?style=flat)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-7EAECE?style=flat)
 
-## Modelos Entrenados
-
-| Modelo | AUC | F1 | Average Precision |
-|---|---|---|---|
-| Logistic Regression | **0.820** | 0.422 | **0.638** |
-| XGBoost | 0.806 | 0.463 | 0.519 |
-| Random Forest | 0.793 | **0.508** | 0.424 |
-
-> Umbral ajustado a **0.35** para compensar el desbalance de clases.
+**BI & Visualization**  
+![Power BI](https://img.shields.io/badge/Power%20BI-1B3A6B?style=flat&logo=powerbi&logoColor=white)
 
 ---
 
-## Feature Engineering
+## 📂 Featured Projects
 
-```python
-SatisfactionIndex = media(JobSat + EnvSat + RelSat + WLB) / 4  # Herzberg
-OverloadScore     = f(HorasExtra, RotaciónLaboral, WLB_bajo)    # Karasek
-StagnationScore   = f(SinPromoción, RolEstancado, NivelJunior)  # Sicherman
-IncomeGap         = z-score del salario vs peers del mismo rol   # Adams
-```
-
----
-
-## Estructura del Repositorio
-
-```
-01_people_analytics_turnover/
-├── notebook.ipynb
-├── data/
-│   └── WA_Fn-UseC_-HR-Employee-Attrition.csv
-├── figures/
-│   ├── 01_attrition_overview.png
-│   ├── 02_correlations.png
-│   ├── 03_perfiles_sociologicos.png
-│   ├── 04_eda_key_vars.png
-│   ├── 05_roc_curves.png
-│   ├── 06_feature_importance.png
-│   ├── 07_confusion_matrix.png
-│   └── 08_risk_business_impact.png
-└── README.md
-```
+### 🔬 [People Analytics: Predicting Voluntary Turnover](#)
+`Python` `Scikit-learn` `SQL` `Power BI`  
+Classification model to identify flight risk employees using engagement,
+tenure and compensation data. Built on a synthetic HR dataset designed to 
+mirror real organizational behavior patterns.  
+**Key insight:** The 3 strongest predictors of turnover weren't salary — they 
+were manager feedback frequency, cross-team mobility and role clarity score.
 
 ---
 
-## Cómo Reproducir
+### 📊 [Social Discourse Analysis: Twitter/X & Political Polarization](#)
+`Python` `NLP` `Pandas` `Matplotlib`  
+NLP pipeline to map ideological clustering in Argentine political discourse 
+using public data. Applies a sociological lens to identify echo chambers 
+and cross-ideological bridge accounts.  
+**Differentiator:** Most NLP projects treat text as numbers. This one treats 
+it as social behavior — and the interpretation layer is where the value is.
 
-```bash
-pip install pandas numpy scikit-learn xgboost matplotlib seaborn scipy
-jupyter notebook notebook.ipynb
-```
+---
+
+### 📈 [Market Research Dashboard: Regional Consumer Behavior](#)
+`Power BI` `SQL` `Python`  
+BI solution built to analyze purchasing patterns across Patagonian retail 
+data. Combines demographic segmentation with behavioral clustering to 
+generate actionable regional insights.
 
 ---
 
-## Próximos Pasos
+## 🎓 Education
 
-- [ ] Survival Analysis (Cox Proportional Hazards)
-- [ ] SHAP values para explicabilidad individual
-- [ ] Dashboard en Streamlit para equipos de RRHH
+**Tecnicatura en Ciencia de Datos e IA** · Politécnico Malvinas Argentinas · 2024–present (75%)  
+**Licenciatura en Sociología** · UNTDF · 2021–present (90% — thesis in progress)
 
 ---
-*Portfolio de Data Science — People Analytics & Sociología Computacional*
+
+## 📬 Contact
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Matías%20Oroz-1B3A6B?style=flat&logo=linkedin)](https://www.linkedin.com/in/matiasoroz/)
+[![Email](https://img.shields.io/badge/Email-matias%40techdelfuego.com-1B3A6B?style=flat&logo=gmail)](mailto:matyoroz@gmail.com)
+
+---
