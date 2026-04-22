@@ -87,6 +87,17 @@ jupyter notebook notebook.ipynb
 
 ---
 
+## ¿Por qué importa este análisis?
+Las organizaciones suelen tratar la rotación de personal como un problema de recursos humanos operativo —una métrica más en un dashboard. Sin embargo, cada salida voluntaria representa un costo real: se estima que reemplazar a un empleado cuesta entre el 50% y el 200% de su salario anual, considerando reclutamiento, onboarding y la productividad perdida durante la transición.
+
+Lo que este proyecto propone es un cambio de perspectiva: la rotación no es un evento aleatorio, sino el resultado de procesos sociales acumulativos que pueden anticiparse.
+
+Integrar teoría sociológica al modelado predictivo permite ir más allá de saber quién va a rotar, para entender por qué y, en consecuencia, qué hacer. Un empleado que rota porque está sobrecargado de horas extra necesita una intervención completamente diferente a uno que lleva cinco años sin una promoción. Tratarlos igual no solo es ineficiente: es contraproducente.
+
+Los cuatro perfiles identificados en este análisis —Quemado, Desenganchado, Estancado y Estable— permiten a los equipos de People & Culture priorizar recursos donde el impacto es mayor. El modelo de impacto económico muestra que, con un umbral de clasificación bien calibrado, una empresa de tamaño mediano podría evitar costos de reemplazo de varios cientos de miles de dólares anuales, simplemente actuando antes de que la decisión de renunciar sea irreversible.
+
+En síntesis, este proyecto demuestra que el análisis de datos no reemplaza el juicio humano en las organizaciones, sino que lo hace más informado, más oportuno y más justo.
+
 ## Próximos Pasos
 
 - [ ] Survival Analysis (Cox Proportional Hazards)
