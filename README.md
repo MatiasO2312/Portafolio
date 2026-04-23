@@ -39,7 +39,7 @@ a technology firm based in Tierra del Fuego building cybersecurity, AI, and data
 
 ## 📂 Featured Projects
 
-### 🏥 [Oncological Epidemiology Analysis — Ministry of Health TDF](https://github.com/MatiasO2312/02_oncologia_ministerio_salud_tdf)
+### 🏥 [Oncological Epidemiology Analysis — Ministry of Health TDF](https://github.com/MatiasO2312/Portafolio/tree/main/02_oncologia_ministerio_salud)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
@@ -65,7 +65,7 @@ with direct implications for 2026 epidemiological planning, now formally flagged
 
 ---
 
-### 🔬 [People Analytics: Predicting Voluntary Turnover](https://github.com/MatiasO2312/Portafolio/blob/main/README.md#)
+### 🔬 [People Analytics: Predicting Voluntary Turnover](https://github.com/MatiasO2312/Portafolio/tree/main/01_people_analytics_turnover)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
@@ -91,4 +91,5 @@ they were manager feedback frequency, cross-team mobility and role clarity score
 ## 📬 Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/matiasOroz)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:tu@email.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:matyoroz@gmail.com)
+
